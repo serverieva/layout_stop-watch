@@ -7,7 +7,7 @@ body {
   background-color: #fff;
   border-radius: 50%;
   margin: 0 auto; }
-  .clock .minutes__hand {
+  .clock__minutes-hand {
     width: 8px;
     height: 140px;
     border-radius: 4px;
@@ -18,7 +18,7 @@ body {
     z-index: 2;
     -webkit-animation: clock 3600s linear infinite;
             animation: clock 3600s linear infinite; }
-  .clock .seconds__hand {
+  .clock__seconds-hand {
     width: 5px;
     height: 160px;
     line-height: 25px;
@@ -29,7 +29,7 @@ body {
     z-index: 1;
     -webkit-animation: clock 60s linear infinite;
             animation: clock 60s linear infinite; }
-  .clock .center__cap {
+  .clock__center-cap {
     width: 18px;
     height: 18px;
     background-color: #5f98a8;
@@ -38,9 +38,9 @@ body {
     left: 166px;
     z-index: 3; }
 
-.minutes__hand,
-.seconds__hand,
-.center__cap {
+.clock__minutes-hand,
+.clock__seconds-hand,
+.clock__center-cap {
   position: relative;
   -webkit-transform-origin: bottom;
           transform-origin: bottom; }
